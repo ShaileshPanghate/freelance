@@ -19,8 +19,8 @@ export default function Navbar({ language, setLanguage }) {
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-6">
         <Link to="/" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >Home</Link>
-        <Link to="/about" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >About</Link>
-        <Link to="/services" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >Services</Link>
+        {/* <Link to="/about" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >About</Link>
+        <Link to="/services" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >Services</Link> */}
         <Link to="/contact" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >Contact</Link>
       </div>
 
@@ -65,8 +65,8 @@ export default function Navbar({ language, setLanguage }) {
           }`}
       >
         <Link to="/" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Home</Link>
-        <Link to="/about" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>About</Link>
-        <Link to="/services" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Services</Link>
+        {/* <Link to="/about" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>About</Link>
+        <Link to="/services" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Services</Link> */}
         <Link to="/contact" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Contact</Link>
 
        

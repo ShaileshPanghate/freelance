@@ -107,7 +107,7 @@ const Home = () => {
 
             {/* Footer */}
             <footer className="py-6 px-6 bg-gray-900 text-white text-center">
-                &copy; 2025 Chomsky Archives. All Rights Reserved.
+                &copy; 2025. All Rights Reserved.
             </footer>
 
             {/* for top arrow */}
