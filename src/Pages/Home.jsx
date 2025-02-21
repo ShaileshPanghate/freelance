@@ -55,7 +55,7 @@ const Home = () => {
             >
                 {/* Background Overlay for Blur Effect */}
                 <div
-                    className="absolute inset-0 bg-cover bg-center"
+                    className="absolute inset-0 bg-cover bg-center lazy"
                     style={{ backgroundImage: "url(./Banner.png)", backdropFilter: "blur(8px)" }}
                 ></div>
 
