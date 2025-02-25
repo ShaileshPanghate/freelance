@@ -1,5 +1,5 @@
 import Navbar from '../Components/Navbr'
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
 
