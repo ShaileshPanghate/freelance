@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // Importing icons
 import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
+
 
 export default function Navbar({ language, setLanguage }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +10,7 @@ export default function Navbar({ language, setLanguage }) {
   return (
     <nav className="relative bg-white shadow-md py-4 px-6 flex justify-between items-center">
       {/* Logo */}
-      <Link to="/" >
+      <Link to="/" className="transform hover:scale-105 transition-transform duration-200" >
         <img src="./Logo.png" alt="" width="80px" height="auto"
           style={{ padding: "-50px", marginTop: "-25px", marginBottom: "-30px" }}
           className="lg:ml-42" />
@@ -18,10 +20,8 @@ export default function Navbar({ language, setLanguage }) {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-6">
-        <Link to="/" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >Home</Link>
-        {/* <Link to="/about" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >About</Link>
-        <Link to="/services" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >Services</Link> */}
-        <Link to="/contact" className="text-gray-900 font-medium text-2xl hover:text-blue-600" >Contact</Link>
+        <Link to="/" className="text-gray-900 font-medium text-2xl hover:text-blue-600 transition-colors duration-300 transform hover:scale-105" >Home</Link>
+        <Link to="/contact" className="text-gray-900 font-medium text-2xl hover:text-blue-600 transition-colors duration-300 transform hover:scale-105" >Contact</Link>
       </div>
 
       {/* Language Toggle Button (Desktop) */}
@@ -64,13 +64,12 @@ export default function Navbar({ language, setLanguage }) {
         className={`absolute left-0 top-full w-full bg-white shadow-md md:hidden flex flex-col items-center py-6 space-y-4 transition-all duration-300 z-50 ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"
           }`}
       >
-        <Link to="/" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Home</Link>
-        {/* <Link to="/about" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>About</Link>
-        <Link to="/services" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Services</Link> */}
-        <Link to="/contact" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Contact</Link>
-
+        <Link to="/" className="text-gray-700 text-lg hover:text-blue-600 transform hover:scale-105 transition-all duration-200" onClick={() => setIsOpen(false)}>Home</Link>
        
-        
+        <Link to="/contact" className="text-gray-700 text-lg hover:text-blue-600 transform hover:scale-105 transition-all duration-200" onClick={() => setIsOpen(false)}>Contact</Link>
+
+
+
       </div>
     </nav>
   );

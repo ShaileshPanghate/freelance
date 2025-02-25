@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbr";
 import { ArrowRight, ArrowUp, MessageCircle } from "lucide-react";
 import Blogs from "../Components/Blogs";
 
+
 const Home = () => {
     const [language, setLanguage] = useState("mr");
 
@@ -22,7 +23,8 @@ const Home = () => {
         en: {
             title: "Transforming Ideas into Impactful Words",
             sub_heading: "Transform thoughts into stories, poems, letters, speeches",
-            about: "We explores the power, structure, and beauty of language, using words to convey ideas, evoke emotions, and inspire action. Our work often involves writing and analyzing various forms of text—such as letters, poems, essays, and dohas—while experimenting with tone, rhythm, and meaning. We combine creativity with linguistic expertise to communicate effectively, engage audiences, and contribute to literature and language understanding.",
+            aboutHeading: "Our Work",
+            about: "We, as Indians and descendants of the Mahabharata, are the inheritors of eternal truth. To express the emotions of this eternal truth, we awaken and manifest our feelings. Not only this, but through the actions and reactions of true words, and the processes and counter-processes, we inspire universal ideas and imagination rooted in scientific unity by using natural words. Through this, we attempt to discover the power, structure, and beauty of language in the pursuit of truth.  In our noble endeavors, we use true words in harmony with sound, rhythm, and meaning to actively engage the movements of the human body more rapidly. The innovative pronunciation of true words, through sound vibrations, stimulates the subtle and ultra-subtle pores of the internal organs, enabling healing through articulation itself. In this manner, the internal organs of the human body undergo a natural form of exercise, igniting one's life force more effectively and inspiring the process and counter-process of 'Illuminate Yourself' (Swayam Deep Bhav).ough the letters of these innovative true words, we create poems, ghazals, qawwalis, essays, literature, couplets (dohe), hymns (abhangs), and verses (shloks). Alongside, in news channels, short films, and movie scripting and narration, we focus on understanding the conceptual and truthful scientific ideas behind the writers' works. Our goal is to establish an effective global dialogue, ensuring that every viewer is deeply engaged for their physical well-being.  We strive to understand the literature and languages of the world through innovative contributions of proper knowledge, combining linguistic skills with communication and creativity. By doing so, we present a vision of universal unity and harmony based on scientific, equitable, and truth-centered principles through the 'Natural Root Word Science' of Shabdkoshvinashabd Word Therapy.",
             contributions: "Contributions",
             linguistics: "Linguistics & Cognitive Science",
             politics: "Politics & Media Analysis",
@@ -33,8 +35,9 @@ const Home = () => {
         },
         mr: {
             title: "कल्पनांना प्रभावी शब्दांमध्ये रूपांतरित करणे",
-            sub_heading: "विचारांना कथा, कविता, पत्रे, भाषणांमध्ये रूपांतरित करा",
-            about: "आम्ही कल्पना व्यक्त करण्यासाठी, भावना जागृत करण्यासाठी आणि कृतीची प्रेरणा देण्यासाठी शब्द वापरून भाषेची शक्ती, रचना आणि सौंदर्य शोधतो. आमच्या कार्यामध्ये स्वर, लय आणि अर्थ यांचा प्रयोग करताना अक्षरे, कविता, निबंध आणि दोहे यासारख्या मजकुराच्या विविध प्रकारांचे लेखन आणि विश्लेषण यांचा समावेश असतो. आम्ही प्रभावीपणे संवाद साधण्यासाठी, प्रेक्षकांना गुंतवून ठेवण्यासाठी आणि साहित्य आणि भाषा समजून घेण्यासाठी योगदान देण्यासाठी भाषिक कौशल्यासह सर्जनशीलता एकत्र करतो.",
+            sub_heading: "नैसर्गिक शब्द वापरून भाषेची शक्ती, रचना आणि सौंदर्याचे शोधाचा सत्यशोध शोधण्याचा प्रयत्न करत असतो.",
+            aboutHeading: "आमचे कार्य",
+            about: "आम्ही भारतिय @ महाभारतिय लोक व भारत देश एक शास्वत सत्याचे धनी असल्याने शास्वत सत्याच्या भावना व्यक्त करण्यासाठी भावना जागृत करून प्रकट करत असतो.एवढेच नव्हे तर सतशब्दांच्या कृती प्रतिकृतीं, प्रक्रिया प्रतिप्रक्रियांव्दारे  वैज्ञानिक एकतेच्या वैश्विक कल्पनां व कल्पनाशक्तीला प्रेरणा देणारे नैसर्गिक शब्द वापरून भाषेची शक्ती, रचना आणि सौंदर्याचे शोधाचा सत्यशोध  शोधण्याचा प्रयत्न करत असतो.आमच्या या कार्याचे सत्कार्यामध्ये स्वर,लय व अर्थासोबत सतशब्दां द्वारेच मानवी शरिरातील होत असलेल्या हालचाली अधिक गतीने सक्रिय सहभागी करण्यासाठी आविष्कारी सतशब्द उच्चाराचे  ध्वनींव्दारेच मानवी शरिरातील अंतर्गत अवयवांच्या सुक्ष्म अतीसुक्ष्म छिद्र  सछिद्रांची अधिक तिव्रतेणे उघडझाप करून उच्चारा व्दारेच उपचार करतील.अशाप्रकारे मानवी शरिरातील अंतर्गत सर्व अवयवांचा नैसर्गिक पद्धतीचे व्यायामाने स्वतः व्दारे स्वतःचा प्राण अधिक प्रभावीपणे प्रज्वलित करुण 'स्वयं दिप भव' ची प्रक्रियाप्रतिप्रक्रिया करण्यास प्रेरित होतो . आविष्कारी सतशब्दांचे  अक्षरांव्दारे कविता, गझल, कव्वाली,निबंध, साहित्य,दोहे,अभंग, श्लोक सोबत वृत्त वाहिन्यां, लघु चित्रपट, चित्रपटांचे वाचन व लेखन झालेले असतांनाही त्यातिल लेखकांच्या लिखाणाच्या संकल्पित कल्पना, सतकल्पना वैज्ञानिक पद्धतीने समताधिष्ठित सत्यधिष्ठिततेसाठी लेखन व विश्लेषण यांचा प्रभावीपणे वैश्विक संवाद साधण्यासाठी, विश्वातील प्रत्येक प्रेक्षकांना प्रेक्षकांचे  शरिरिक कल्याणासाठी गूंतवुण ठेवण्यासाठी कार्य करत आहोत. प्रत्येक भाषेतील साहित्य आणि प्रत्येक भाषा समजुन घेण्यासाठी योग्य ज्ञानाचे आविष्कारी योगदाणाने  भाषिक कौशल्यासह संभाषण, सर्जनशीलता एकत्रीत करून वैज्ञानिक, समताधिष्ठित सत्य व सत्यधिष्ठित समता आधारित  विश्वव्यापी एकता एकात्मतेचे दर्शन नैसर्गिक मुळ शब्द विज्ञानचे 'शब्दकोषविनाशब्द' शब्दपॅथी व्दारेच देत आहेत.",
             contributions: "योगदान",
             linguistics: "भाषाशास्त्र आणि संज्ञान शास्त्र",
             politics: "राजकारण आणि माध्यम विश्लेषण",
@@ -47,9 +50,11 @@ const Home = () => {
     return (
         <div className="font-sans bg-gray-100 min-h-screen">
             {/* Navbar */}
+
             <Navbar className="relative z-50 bg-white shadow-md py-4 px-6 flex justify-between items-center" language={language} setLanguage={setLanguage} />
 
             {/* Hero Section */}
+
             <section
                 className="relative min-h-[50vh] z-20 px-6 py-12  text-white bg-cover bg-center flex flex-col justify-center"
             >
@@ -83,27 +88,22 @@ const Home = () => {
 
             {/* About */}
             <section className="py-10 px-6 max-w-7xl mx-auto text-center">
-                <div className="flex flex-col md:flex-row items-center gap-6">
-                    {/* Image Section */}
-                    <img
-                        src="./About-Us.png"
-                        alt="Noam Chomsky"
-                        className="w-full md:w-1/2 transition-transform duration-500 ease-in-out transform hover:scale-110 "
-                    />
-
+                <div className=" items-center gap-6">
+                <h2 className="text-2xl font-bold text-gray-800 mb-4 animate-slideIn">{content[language].aboutHeading}</h2>
                     {/* Text Section */}
-                    <div className=" md:w-1/2 text-center md:text-left">
-                        <p className="text-gray-700 text-lg animate-slideIn">{content[language].about}</p>
-                    </div>
+                    <p className="text-gray-700 text-lg animate-slideIn">{content[language].about}</p>
+
                 </div>
             </section>
 
 
             {/*BLOGS */}
             <section className="py-10 px-6 text-center animate-slideIn">
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">{content[language].latest}</h2>
+                <h2 className="animate-slideIn text-2xl font-bold text-gray-800 mb-4">{content[language].latest}</h2>
                 <Blogs />
             </section>
+
+
 
             {/* Footer */}
             <footer className="py-6 px-6 bg-gray-900 text-white text-center">
