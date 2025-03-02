@@ -17,10 +17,10 @@ const Contact = () => {
                             <Phone className="text-green-600" />
                             <span className="text-gray-700">+91 7757814825</span>
                         </div>
-                        <div className="flex items-center space-x-3">
+                        {/* <div className="flex items-center space-x-3">
                             <Mail className="text-blue-600" />
                             <span className="text-gray-700">contact@example.com</span>
-                        </div>
+                        </div> */}
 
                         <div className="flex items-center space-x-3">
                             <MapPin className="text-red-600" />
